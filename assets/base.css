@@ -456,6 +456,12 @@ p:empty {
   height: 100%;
 }
 
+@media screen and (max-width: 759px) {
+  .section-content-wrapper.section-content-wrapper {
+    overflow: auto;
+  }  
+}
+
 /* Utility */
 
 .hidden {
