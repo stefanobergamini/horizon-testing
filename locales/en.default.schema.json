@@ -1038,6 +1038,7 @@
     "vertical_offset": "Shadow vertical offset",
     // Layout setting: stacks content vertically on mobile
     "vertical_on_mobile": "Vertical on mobile",
+    "inverted_on_mobile": "Inverted on mobile",
     "vertical_padding": "Vertical padding",
     "video": "Video",
     "video_alt_text": "Alt text",

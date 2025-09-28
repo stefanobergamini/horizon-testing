@@ -894,6 +894,7 @@
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": false,
+        "inverted_on_mobile": false,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "flex-start",
         "align_baseline": false,
@@ -1216,6 +1217,7 @@
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
+        "inverted_on_mobile": false,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,
@@ -1443,6 +1445,7 @@
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
+        "inverted_on_mobile": false,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "flex-start",
         "align_baseline": false,
@@ -1663,6 +1666,7 @@
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
+        "inverted_on_mobile": false,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "flex-start",
         "align_baseline": false,
@@ -2180,6 +2184,7 @@
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
+        "inverted_on_mobile": false,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,
@@ -2475,6 +2480,7 @@
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
+        "inverted_on_mobile": false,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,
@@ -2695,6 +2701,7 @@
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
+        "inverted_on_mobile": true,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "flex-start",
         "align_baseline": false,
@@ -3096,6 +3103,7 @@
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
+        "inverted_on_mobile": true,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,
@@ -3497,6 +3505,7 @@
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
+        "inverted_on_mobile": false,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,

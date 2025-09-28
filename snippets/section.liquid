@@ -52,6 +52,7 @@
         layout-panel-flex--{{ section.settings.content_direction }}
         section-content-wrapper
         {% if section.settings.vertical_on_mobile %} mobile-column{% endif %}
+        {% if section.settings.inverted_on_mobile %} inverted{% endif %}
       "
       style="
         {% render 'layout-panel-style', settings: section.settings %}
