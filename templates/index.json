@@ -1108,7 +1108,7 @@
                   "type": "add-to-cart",
                   "static": true,
                   "settings": {
-                    "style_class": "button-secondary"
+                    "style_class": "button"
                   },
                   "blocks": {}
                 },
@@ -1482,20 +1482,21 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
             "gap": 8,
-            "width": "custom",
-            "custom_width": 49,
-            "width_mobile": "fill",
+            "width": "fit-content",
+            "custom_width": 22,
+            "width_mobile": "fit-content",
             "custom_width_mobile": 100,
             "height": "fit",
             "custom_height": 100,
             "inherit_color_scheme": true,
             "color_scheme": "",
-            "background_media": "none",
+            "background_media": "image",
             "video_position": "cover",
-            "background_image_position": "cover",
+            "background_image": "shopify://shop_images/Captura_de_tela_2025-09-28_115341.png",
+            "background_image_position": "fit",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
@@ -1511,62 +1512,32 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_48MWzP": {
-              "type": "text",
-              "name": "Heading",
+            "image_FdF9Xb": {
+              "type": "image",
+              "name": "t:names.image",
               "settings": {
-                "text": "<h2>Intentional design</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_Ckk6eU": {
-              "type": "text",
-              "name": "Description",
-              "settings": {
-                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
+                "image": "shopify://shop_images/Stylized_Icons.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "custom",
+                "custom_width": 54,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 35,
+                "padding-block-end": 35,
+                "padding-inline-start": 35,
+                "padding-inline-end": 35
               },
               "blocks": {}
             }
           },
           "block_order": [
-            "text_48MWzP",
-            "text_Ckk6eU"
+            "image_FdF9Xb"
           ]
         },
         "group_TrXUyq": {
@@ -1580,14 +1551,14 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
             "gap": 8,
-            "width": "fill",
+            "width": "fit-content",
             "custom_width": 100,
-            "width_mobile": "fill",
+            "width_mobile": "fit-content",
             "custom_width_mobile": 100,
-            "height": "fit",
+            "height": "fill",
             "custom_height": 100,
             "inherit_color_scheme": true,
             "color_scheme": "",
@@ -1597,27 +1568,27 @@
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
-            "border_radius": 0,
+            "border_radius": 20,
             "placeholder": "",
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
+            "toggle_overlay": true,
+            "overlay_color": "#ffffff",
             "overlay_style": "solid",
             "gradient_direction": "to top",
-            "padding-block-start": 10,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "padding-block-start": 40,
+            "padding-block-end": 40,
+            "padding-inline-start": 20,
+            "padding-inline-end": 20
           },
           "blocks": {
             "text_MKFThN": {
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h2>Quality first</h2>",
+                "text": "<h2>Join our Wine Club</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
-                "type_preset": "h4",
+                "type_preset": "h3",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -1639,11 +1610,11 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>We obsess over the details and strive to deliver the best products at the best prices, every time.</p>",
+                "text": "<p>At Splash, subscribing to regular shipments is a benefit - you get consistently great prices and you are totally in control. As an added bonus, if you subscribe today, you ll get $20 off your first shipment - just use the code SUBSCRIBE at checkout! That means you that can get 15 bottles for just $69 + FREE Shipping - our best ever price!</p>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "center",
-                "type_preset": "rte",
+                "type_preset": "paragraph",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -1656,15 +1627,31 @@
                 "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
+                "padding-inline-start": 30,
+                "padding-inline-end": 30
+              },
+              "blocks": {}
+            },
+            "button_N6rypk": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Learn More",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "width": "custom",
+                "custom_width": 45,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
               },
               "blocks": {}
             }
           },
           "block_order": [
             "text_MKFThN",
-            "text_KHQ8QD"
+            "text_KHQ8QD",
+            "button_N6rypk"
           ]
         }
       },
