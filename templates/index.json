@@ -2251,7 +2251,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<p>Rob s october picks</p>",
+                "text": "<p>Rob's october picks</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
